@@ -1,7 +1,7 @@
 // Dependencies
 const fs = require('fs');
 const express = require('express');
-const database = ('./db');
+
 
 // Use express server
 const app = express();
