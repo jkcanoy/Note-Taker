@@ -9,6 +9,9 @@ const app = express();
 // set initial port
 const PORT = process.env.PORT || 3000;
 
+// Link to static assets
+app.use(express.static('public'));
+
 // Handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
