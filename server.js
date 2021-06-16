@@ -2,7 +2,6 @@
 const fs = require('fs');
 const express = require('express');
 
-
 // Use express server
 const app = express();
 
@@ -17,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Router
-require('./routes/notesRoutes')(app);
+require('./routes/apiRoutes')(app);
 require('./routes/htmlRoutes')(app);
 
 // Listener to "start" server
