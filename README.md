@@ -11,6 +11,7 @@
   - [Usage](#usage)
   - [License](#license)
   - [Questions](#questions)
+  - [Links](#links)
 
   ## Installation
   1. Clone Note-Taker repo from GitHub.
@@ -38,3 +39,9 @@
   * GitHub: [jkcanoy](https://github.com/jkcanoy). 
 
   * For more information please contact kylecanoy96@gmail.com.
+
+  ## Links
+  * GitHub: https://github.com/jkcanoy/Note-Taker
+
+  * Heroku: https://guarded-sierra-15855.herokuapp.com
+
